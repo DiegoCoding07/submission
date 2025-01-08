@@ -34,7 +34,7 @@ max_date = all_data["order_approved_at"].max()
 with st.sidebar:
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("https://raw.githubusercontent.com/DiegoCoding07/submission/blob/main/dashboard/Dashboard_Logo.png", width=100)
+        st.image("https://github.com/DiegoCoding07/submission/raw/main/dashboard/Dashboard_Logo.png", width=100)
     with col2:
         st.write(' ')
     with col3:
