@@ -4,6 +4,9 @@ import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
 
+import matplotlib
+matplotlib.use("Agg")
+
 # Style untuk visualisasi
 sns.set(style='dark')
 
