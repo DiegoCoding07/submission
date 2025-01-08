@@ -32,7 +32,12 @@ max_date = all_data["order_approved_at"].max()
 
 # Sidebar untuk filter
 with st.sidebar:
-    st.image("https://raw.githubusercontent.com/DiegoCoding07/submission/blob/main/dashboard/Dashboard_Logo.png", width=100)
+    with col1:
+        st.image("https://raw.githubusercontent.com/DiegoCoding07/submission/blob/main/dashboard/Dashboard_Logo.png", width=100)
+    with col2:
+        st.write(' ')
+    with col3:
+        st.write(' ')
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
         min_value=min_date,
